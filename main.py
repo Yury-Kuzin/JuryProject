@@ -15,5 +15,5 @@ def fill_matrix_3(n, m):
 def print_matrix(matrix):
     for row in matrix:
         for n in row:
-            print(f'{n:<3d}', end='')
+            print(f'{n:<4d}', end='')
         print()
